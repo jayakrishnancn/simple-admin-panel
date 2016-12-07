@@ -14,18 +14,45 @@ body {
   color: #777;
 }
 
+.full-size {
+  width: 100%;
+}
+
+.auth-form {
+  max-width: 300px;
+}
+
 table.valign-middle tbody > tr > td {
   vertical-align: middle;
 }
 
-.shadow-small, input.form-control {
+.shadow-small, .admin-panel input.form-control {
   -webkit-box-shadow: 2px 2px 3px #eee;
   box-shadow: 2px 2px 3px #eee;
 }
 
-.shadow-small-2, input.form-control:hover, input.form-control:focus {
+.shadow-small-2, .admin-panel input.form-control:hover, .admin-panel input.form-control:focus {
   -webkit-box-shadow: 2px 2px 3px #e0e0e0;
   box-shadow: 2px 2px 3px #e0e0e0;
+}
+
+.grey-bg {
+  background: #f9f9f9;
+}
+
+.login {
+  margin: 7% auto;
+  max-width: 330px;
+}
+
+.login label {
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+}
+
+.login .panel-body {
+  padding: 20px 15px;
 }
 
 /* dropdown open */
@@ -137,10 +164,16 @@ ul.side-nav .heading {
   font-size: 13px;
 }
 
-input.form-control {
-  border-color: #e0e0e0;
+.admin-panel input.form-control {
   -webkit-border-radius: 2px;
   border-radius: 2px;
+}
+
+.footer, .footer a, .footer a:hover {
+  text-align: center;
+  text-decoration: none;
+  color: #999;
+  padding: 3px 8px;
 }
 
 /* drop down with down arrow */
