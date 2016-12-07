@@ -10,6 +10,24 @@ body {
   font-weight: normal;
 }
 
+.admin-content .panel-heading {
+  color: #777;
+}
+
+table.valign-middle tbody > tr > td {
+  vertical-align: middle;
+}
+
+.shadow-small, input.form-control {
+  -webkit-box-shadow: 2px 2px 3px #eee;
+  box-shadow: 2px 2px 3px #eee;
+}
+
+.shadow-small-2, input.form-control:hover, input.form-control:focus {
+  -webkit-box-shadow: 2px 2px 3px #e0e0e0;
+  box-shadow: 2px 2px 3px #e0e0e0;
+}
+
 /* dropdown open */
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: #666;
@@ -56,6 +74,36 @@ nav input.form-control {
   background-color: inherit;
 }
 
+.navbar {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:active, .nav > li > a:focus, .nav > li > a:hover {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: inherit;
+  color: inherit;
+  border: 0;
+}
+
+.gery-bg-for-tab {
+  background: #f9f9f9;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+ul.nav-tabs {
+  border-bottom: 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  overflow: hidden;
+  color: #222;
+  border-top: 3px solid #dd4f39;
+}
+
 ul.side-nav {
   color: #444;
 }
@@ -68,7 +116,7 @@ ul.side-nav .list-group-item {
 
 ul.side-nav .list-group-item.active {
   border: 1px solid #ddd;
-  border-left: 2px solid #dd4f39;
+  border-left: 3px solid #dd4f39;
   background-color: inherit !important;
   color: inherit;
 }
@@ -85,9 +133,14 @@ ul.side-nav .heading {
   font-weight: bold;
 }
 
-.shadow-small {
-  -webkit-box-shadow: 2px 2px 3px #eee;
-  box-shadow: 2px 2px 3px #eee;
+.btn {
+  font-size: 13px;
+}
+
+input.form-control {
+  border-color: #e0e0e0;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 
 /* drop down with down arrow */
