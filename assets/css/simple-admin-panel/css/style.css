@@ -1,3 +1,8 @@
+* {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
 body {
   font-size: 13px;
   color: #666;
@@ -103,7 +108,7 @@ nav input.form-control {
 
 .navbar {
   margin-bottom: 0px;
-  border-bottom: 1px solid #f9f9f9;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:active, .nav > li > a:focus, .nav > li > a:hover {
@@ -115,9 +120,9 @@ nav input.form-control {
 }
 
 .gery-bg-for-tab {
-  background: #f9f9f9;
+  background: #fafafa;
   margin-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 25px;
   border-bottom: 1px solid #eee;
 }
 
@@ -158,6 +163,10 @@ ul.side-nav .heading {
   color: #666;
   background-color: #f9f9f9;
   font-weight: bold;
+}
+
+ul.side-nav .sub-menu a:last-child {
+  border-bottom: 0;
 }
 
 .btn {
